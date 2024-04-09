@@ -1,12 +1,14 @@
-# Main Sources
+# Example project demonstrating distributed tasks in a chat application built with Django REST Framework
+
+## Main Sources
  *  Twilio: https://console.twilio.com/?frameUrl=/console
  *  Docs: https://www.twilio.com/docs/verify/api
 
-# Features
+## Features
  * Development, Staging, Production environments are supported -> https://django-configurations.readthedocs.io/en/stable/
  * 
 
-# How to Install
+## How to Install
  * git clone
  * cp .env.example .env
  * python3 -m pip install --user --upgrade pip
@@ -20,7 +22,7 @@
  * python3 manage.py createsuperuser
  * python3 manage.py runserver
 
-# How to Test
+## How to Test
  * Option 1 -> python3 manage.py test
  * Option 2 -> A sample POSTMAN collection is provided in the root folder
  * Option 3 -> DRF browsable API is enabled
